@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>usermavn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        body {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            font-family: 'Tahoma', sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header img {
+            width: 100%;
+            max-width: 180px; /* Adjusted max-width for a smaller image */
+            height: auto;
+            margin-bottom: 20px;
+            will-change: transform;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+            margin: 10px 0;
+            display: block;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/girl.jpg" alt="girl.jpg">
+    </header>
+
+    <nav>
+        <a href="about.html">about</a>
+        <a href="socials.html">socials</a>
+        <a href="shop.html">shop</a>
+    </nav>
+</body>
+</html>
